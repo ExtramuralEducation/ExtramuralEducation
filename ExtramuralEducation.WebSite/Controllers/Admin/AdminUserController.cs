@@ -32,11 +32,13 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
             return View(viewModel);
         }
 
+        #region AdduserMethods
+
         [HttpGet]
         public virtual ActionResult AddUser()
         {
             var viewModel = new UserViewModel();
-            viewModel.RolesListItems = Roles.GetAllRoles().Select(x => new SelectListItem(){ Text = x, Value = x});
+            viewModel.RolesListItems = Roles.GetAllRoles().Select(x => new SelectListItem() { Text = x, Value = x });
 
             return PartialView(MVC.AdminUser.Views.Partial.UserFields, viewModel);
         }
@@ -57,10 +59,27 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
                         Roles.AddUserToRole(viewModel.Username, viewModel.Role);
                     }
 
-                    return this.Json(new {success = true});
-                }            
+                    return this.Json(new { success = true });
+                }
             }
             return this.Json(new { success = false, errors = this.ModelErrorString() });
+        }
+        #endregion
+
+        [HttpGet]
+        public virtual ActionResult DeleteUser(string userName)
+        {
+            var userId = WebSecurity.GetUserId(userName);
+            return PartialView(MVC.AdminUser.Views.Partial.DeleteUser,userId);
+        }
+
+        [HttpPost]
+        public virtual ActionResult DeleteUser(Guid Id)
+        {
+            var isDeleted = WebSecurity.DeleteUserById(Id);
+
+            return this.Json(new { success = isDeleted });
+
         }
 
         private List<string> ModelErrorString()

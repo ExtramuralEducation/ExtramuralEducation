@@ -21,6 +21,7 @@
             <th> @TranslateHelper.Translate("CreateDate")</th>
             <th> @TranslateHelper.Translate("IsLockedOut")</th>
             <th> @TranslateHelper.Translate("Roles")</th>
+            <th> @TranslateHelper.Translate("Actions")</th>
         </tr>
     </thead>
     <tbody>
@@ -51,6 +52,7 @@
                         }
                     }
                 </td>
+                <td><a href="@Url.Action(MVC.AdminUser.ActionNames.DeleteUser, MVC.AdminUser.Name, new {userName = user.Username})" class="open-popup">Delete</a></td>
             </tr>
         }
     </tbody>

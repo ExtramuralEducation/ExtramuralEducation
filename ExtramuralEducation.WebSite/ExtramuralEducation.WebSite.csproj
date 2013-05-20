@@ -230,6 +230,7 @@
     </Content>
     <Content Include="Views\AdminUser\Index.cshtml" />
     <Content Include="Views\AdminUser\Partial\UserFields.cshtml" />
+    <Content Include="Views\AdminUser\Partial\DeleteUser.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

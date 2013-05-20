@@ -37,34 +37,38 @@
                 e.preventDefault();
                 $('#modal').modal('hide');
             });
-            
+
             $('.submit-modal').click(function (e) {
                 e.preventDefault();
                 var form = $('#modalBody').find('form');
                 var valid = form.valid();
                 console.log(valid);
 
-                    $.ajax({
-                        url: $(form).attr('action'),
-                        method: $(form).attr('method'),
-                        dataType: "json",
-                        data: $(form).serialize(),
-                        success: function(data) {
-                            if (data.success) {
-                                $('#modal').modal('hide');
-                                window.location.reload();
-                            } else {
+                $.ajax({
+                    url: $(form).attr('action'),
+                    method: $(form).attr('method'),
+                    dataType: "json",
+                    data: $(form).serialize(),
+                    success: function (data) {
+                        if (data.success) {
+                            $('#modal').modal('hide');
+                            window.location.reload();
+                        } else {
+                            try {
                                 var er = new Array();
                                 for (var i = 0; i < data.errors.length; i++) {
-                                    er[i] = $("<p>" + data.errors[i] + "</p>");  
+                                    er[i] = $("<p>" + data.errors[i] + "</p>");
                                 }
-                                $('#modalBody').prepend(er);
+                            } catch (e) {
                             }
-                        },
-                        error: function() {
-                            alert("Can't connect to service");
+
+                            $('#modalBody').prepend(er);
                         }
-                    });
+                    },
+                    error: function () {
+                        alert("Can't connect to service");
+                    }
+                });
 
 
             });

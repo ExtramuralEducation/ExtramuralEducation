@@ -41,6 +41,12 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
             return RedirectToRoutePermanent(callInfo.RouteValueDictionary);
         }
 
+        [NonAction]
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public virtual System.Web.Mvc.ActionResult DeleteUser()
+        {
+            return new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.DeleteUser);
+        }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public AdminUserController Actions { get { return MVC.AdminUser; } }
@@ -59,6 +65,7 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
         {
             public readonly string Index = "Index";
             public readonly string AddUser = "AddUser";
+            public readonly string DeleteUser = "DeleteUser";
         }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
@@ -66,6 +73,7 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
         {
             public const string Index = "Index";
             public const string AddUser = "AddUser";
+            public const string DeleteUser = "DeleteUser";
         }
 
 
@@ -76,6 +84,15 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
         public class ActionParamsClass_AddUser
         {
             public readonly string viewModel = "viewModel";
+        }
+        static readonly ActionParamsClass_DeleteUser s_params_DeleteUser = new ActionParamsClass_DeleteUser();
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public ActionParamsClass_DeleteUser DeleteUserParams { get { return s_params_DeleteUser; } }
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public class ActionParamsClass_DeleteUser
+        {
+            public readonly string userName = "userName";
+            public readonly string Id = "Id";
         }
         static readonly ViewsClass s_views = new ViewsClass();
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
@@ -99,8 +116,10 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
                 public _ViewNamesClass ViewNames { get { return s_ViewNames; } }
                 public class _ViewNamesClass
                 {
+                    public readonly string DeleteUser = "DeleteUser";
                     public readonly string UserFields = "UserFields";
                 }
+                public readonly string DeleteUser = "~/Views/AdminUser/Partial/DeleteUser.cshtml";
                 public readonly string UserFields = "~/Views/AdminUser/Partial/UserFields.cshtml";
             }
         }
@@ -136,6 +155,26 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
             var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.AddUser);
             ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "viewModel", viewModel);
             AddUserOverride(callInfo, viewModel);
+            return callInfo;
+        }
+
+        partial void DeleteUserOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, string userName);
+
+        public override System.Web.Mvc.ActionResult DeleteUser(string userName)
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.DeleteUser);
+            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "userName", userName);
+            DeleteUserOverride(callInfo, userName);
+            return callInfo;
+        }
+
+        partial void DeleteUserOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, System.Guid Id);
+
+        public override System.Web.Mvc.ActionResult DeleteUser(System.Guid Id)
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.DeleteUser);
+            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "Id", Id);
+            DeleteUserOverride(callInfo, Id);
             return callInfo;
         }
 

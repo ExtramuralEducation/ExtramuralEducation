@@ -101,10 +101,28 @@ public sealed class WebSecurity
         return Membership.DeleteUser(Username);
     }
 
-    public static int GetUserId(string userName)
+    public static bool DeleteUserById(Guid Id)
+    {
+        using (DataContext context = new DataContext())
+        {
+            var user = context.Users.FirstOrDefault(x => x.UserId == Id);
+
+            if (user != null)
+            {
+                context.Users.Remove(user);
+                context.SaveChanges();
+
+                return true;
+            }
+
+            return false;
+        }
+    }
+
+    public static Guid GetUserId(string userName)
     {
         MembershipUser user = Membership.GetUser(userName);
-        return (int)user.ProviderUserKey;
+        return (Guid)user.ProviderUserKey;
     }
 
     public static string CreateAccount(string userName, string password)
