@@ -1,0 +1,11 @@
+﻿@using ExtramuralEducation.Core
+@model ExtramuralEducation.ViewModels.InstitutionViewModel
+@using (Html.BeginForm(MVC.AdminInstitution.ActionNames.Add, MVC.AdminInstitution.Name, FormMethod.Post, new {@class = "form-horizontal"}))
+{
+    <div class="control-group">
+        <label class="control-label">@TranslateHelper.Translate("Name")</label>
+        <div class="controls">
+            @Html.TextBoxFor(x => x.Name)
+        </div>
+    </div>
+}

@@ -1,0 +1,94 @@
+﻿@using ExtramuralEducation.Core
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="@Url.Content(Links.Content.css.bootstrap_min_css)"/>
+    <link rel="stylesheet" href="@Url.Content(Links.Content.css.bootstrap_responsive_min_css)"/>
+        <script type="text/javascript" src="@Url.Content(Links.Scripts.jquery_1_9_1_min_js)"></script>
+    <script type="text/javascript" src="@Url.Content(Links.Scripts.bootstrap_js)"></script>
+    <script type="text/javascript" src="@Url.Content(Links.Scripts.jquery_validate_min_js)"></script>
+        <script type="text/javascript" src="@Url.Content(Links.Scripts.jquery_validate_unobtrusive_min_js)"></script>
+    <title>@ViewBag.Title</title>
+    @RenderSection("header", false)
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.open-popup').click(function (e) {
+                e.preventDefault();
+                var header = $(this).text();
+                $.ajax({
+                    url: $(this).attr('href'),
+                    dataType: "html",
+                    success: function (data) {
+                        $('#modalHeader').empty().text(header);
+                        $('#modalBody').empty().append(data);
+                        $('#modal').modal('show');
+                    },
+                    error: function () {
+                        alert('Something going wrong!');
+                    }
+                });
+            });
+
+            $('.close-modal').click(function (e) {
+                e.preventDefault();
+                $('#modal').modal('hide');
+            });
+            
+            $('.submit-modal').click(function (e) {
+                e.preventDefault();
+                var form = $('#modalBody').find('form');
+                var valid = form.valid();
+                console.log(valid);
+
+                    $.ajax({
+                        url: $(form).attr('action'),
+                        method: $(form).attr('method'),
+                        dataType: "json",
+                        data: $(form).serialize(),
+                        success: function(data) {
+                            if (data.success) {
+                                $('#modal').modal('hide');
+                                window.location.reload();
+                            } else {
+                                var er = new Array();
+                                for (var i = 0; i < data.errors.length; i++) {
+                                    er[i] = $("<p>" + data.errors[i] + "</p>");  
+                                }
+                                $('#modalBody').prepend(er);
+                            }
+                        },
+                        error: function() {
+                            alert("Can't connect to service");
+                        }
+                    });
+
+
+            });
+        })
+    </script>
+</head>
+<body>
+    @{Html.RenderAction(MVC.Menu.ActionNames.MainMenu, MVC.Menu.Name);}
+    <div class="row-fluid">
+        <div class="span9">
+            @RenderBody()
+        </div>
+    </div>
+    <div id="modal" class="modal hide fade">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                &times;</button>
+            <h3 id="modalHeader"></h3>
+        </div>
+        <div id="modalBody" class="modal-body">
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="btn close-modal">@TranslateHelper.Translate("Close")</a><a href="#" class="btn btn-primary submit-modal">@TranslateHelper.Translate("Save")</a>
+        </div>
+    </div>
+</body>
+</html>

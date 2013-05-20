@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout/_Layout.cshtml";
+}
+
+@using ExtramuralEducation.Core
+@model IEnumerable<ExtramuralEducation.ViewModels.InstitutionViewModel>
+
+<h2>@TranslateHelper.Translate("Institutions")</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <td>@TranslateHelper.Translate("Number")</td>
+            <td>@TranslateHelper.Translate("Name")</td>
+        </tr>
+    </thead>
+    <tbody>
+        @{ var index = 0;}
+        @foreach (var institute in Model)
+        {
+            index++;
+            <tr>
+                <td>@index</td>
+                <td>@institute.Name</td>
+            </tr>
+           
+        }
+    </tbody>
+</table>
+

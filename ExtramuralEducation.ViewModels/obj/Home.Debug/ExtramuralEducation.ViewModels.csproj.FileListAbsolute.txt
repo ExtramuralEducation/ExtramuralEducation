@@ -1,0 +1,3 @@
+K:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Home.Debug\ExtramuralEducation.ViewModels.dll
+K:\ExtramuralEducation\ExtramuralEducation.ViewModels\obj\Home.Debug\ExtramuralEducation.ViewModels.dll
+K:\ExtramuralEducation\ExtramuralEducation.ViewModels\obj\Home.Debug\ExtramuralEducation.ViewModels.csprojResolveAssemblyReference.cache

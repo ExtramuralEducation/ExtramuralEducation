@@ -1,0 +1,7 @@
+K:\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\ExtramuralEducation.Mappers.dll
+K:\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\ExtramuralEducation.Models.dll
+K:\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\ExtramuralEducation.ViewModels.dll
+K:\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\Omu.ValueInjecter.dll
+K:\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\Omu.ValueInjecter.xml
+K:\ExtramuralEducation\ExtramuralEducation.Mappers\obj\Home.Debug\ExtramuralEducation.Mappers.csprojResolveAssemblyReference.cache
+K:\ExtramuralEducation\ExtramuralEducation.Mappers\obj\Home.Debug\ExtramuralEducation.Mappers.dll

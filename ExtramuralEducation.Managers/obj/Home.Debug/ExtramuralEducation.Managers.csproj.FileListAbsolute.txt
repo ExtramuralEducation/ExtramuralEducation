@@ -1,0 +1,6 @@
+K:\ExtramuralEducation\ExtramuralEducation.Managers\bin\Home.Debug\ExtramuralEducation.Managers.dll
+K:\ExtramuralEducation\ExtramuralEducation.Managers\bin\Home.Debug\ExtramuralEducation.Managers.Contracts.dll
+K:\ExtramuralEducation\ExtramuralEducation.Managers\bin\Home.Debug\ExtramuralEducation.Models.dll
+K:\ExtramuralEducation\ExtramuralEducation.Managers\bin\Home.Debug\ExtramuralEducation.Repository.Contracts.dll
+K:\ExtramuralEducation\ExtramuralEducation.Managers\obj\Home.Debug\ExtramuralEducation.Managers.csprojResolveAssemblyReference.cache
+K:\ExtramuralEducation\ExtramuralEducation.Managers\obj\Home.Debug\ExtramuralEducation.Managers.dll

@@ -1,0 +1,9 @@
+F:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\bin\Debug\ExtramuralEducation.Repository.Contracts.dll
+F:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\bin\Debug\ExtramuralEducation.Repository.Contracts.pdb
+F:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Debug\ExtramuralEducation.Repository.Contracts.dll
+F:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Debug\ExtramuralEducation.Repository.Contracts.pdb
+K:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\bin\Debug\ExtramuralEducation.Repository.Contracts.dll
+K:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\bin\Debug\ExtramuralEducation.Repository.Contracts.pdb
+K:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Debug\ExtramuralEducation.Repository.Contracts.dll
+K:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Debug\ExtramuralEducation.Repository.Contracts.pdb
+K:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Debug\ExtramuralEducation.Repository.Contracts.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+F:\ExtramuralEducation\ExtramuralEducation.Models\bin\Debug\ExtramuralEducation.Models.dll
+F:\ExtramuralEducation\ExtramuralEducation.Models\bin\Debug\ExtramuralEducation.Models.pdb
+F:\ExtramuralEducation\ExtramuralEducation.Models\obj\Debug\ExtramuralEducation.Models.dll
+F:\ExtramuralEducation\ExtramuralEducation.Models\obj\Debug\ExtramuralEducation.Models.pdb
+K:\ExtramuralEducation\ExtramuralEducation.Models\bin\Debug\ExtramuralEducation.Models.dll
+K:\ExtramuralEducation\ExtramuralEducation.Models\bin\Debug\ExtramuralEducation.Models.pdb
+K:\ExtramuralEducation\ExtramuralEducation.Models\obj\Debug\ExtramuralEducation.Models.dll
+K:\ExtramuralEducation\ExtramuralEducation.Models\obj\Debug\ExtramuralEducation.Models.pdb
+K:\ExtramuralEducation\ExtramuralEducation.Models\obj\Debug\ExtramuralEducation.Models.csprojResolveAssemblyReference.cache
+F:\ExtramuralEducation\ExtramuralEducation.Models\bin\Debug\EntityFramework.dll
+F:\ExtramuralEducation\ExtramuralEducation.Models\bin\Debug\EntityFramework.xml
+F:\ExtramuralEducation\ExtramuralEducation.Models\obj\Debug\ExtramuralEducation.Models.csprojResolveAssemblyReference.cache

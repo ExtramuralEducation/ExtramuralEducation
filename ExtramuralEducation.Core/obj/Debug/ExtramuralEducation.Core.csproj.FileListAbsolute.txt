@@ -1,0 +1,10 @@
+F:\ExtramuralEducation\ExtramuralEducation.Core\bin\Debug\ExtramuralEducation.Core.dll
+F:\ExtramuralEducation\ExtramuralEducation.Core\bin\Debug\ExtramuralEducation.Core.pdb
+F:\ExtramuralEducation\ExtramuralEducation.Core\obj\Debug\ExtramuralEducation.Core.dll
+F:\ExtramuralEducation\ExtramuralEducation.Core\obj\Debug\ExtramuralEducation.Core.pdb
+K:\ExtramuralEducation\ExtramuralEducation.Core\bin\Debug\ExtramuralEducation.Core.dll
+K:\ExtramuralEducation\ExtramuralEducation.Core\bin\Debug\ExtramuralEducation.Core.pdb
+K:\ExtramuralEducation\ExtramuralEducation.Core\obj\Debug\ExtramuralEducation.Core.dll
+K:\ExtramuralEducation\ExtramuralEducation.Core\obj\Debug\ExtramuralEducation.Core.pdb
+K:\ExtramuralEducation\ExtramuralEducation.Core\obj\Debug\ExtramuralEducation.Core.csprojResolveAssemblyReference.cache
+F:\ExtramuralEducation\ExtramuralEducation.Core\obj\Debug\ExtramuralEducation.Core.csprojResolveAssemblyReference.cache

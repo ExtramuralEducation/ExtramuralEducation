@@ -1,0 +1,3 @@
+K:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Home.Debug\ExtramuralEducation.Managers.Contracts.dll
+K:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Home.Debug\ExtramuralEducation.Models.dll
+K:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\obj\Home.Debug\ExtramuralEducation.Managers.Contracts.dll

@@ -1,0 +1,57 @@
+﻿@using ExtramuralEducation.Core
+@model IEnumerable<ExtramuralEducation.ViewModels.UserViewModel>
+@{
+    ViewBag.Title = "Users";
+    Layout = "~/Views/Shared/Layout/_Layout.cshtml";
+}
+
+<h2>Users</h2>
+<a href="@Url.Action(MVC.AdminUser.ActionNames.AddUser, MVC.AdminUser.Name)" class="btn btn-inverse open-popup">Add user</a>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>
+                @TranslateHelper.Translate("Username")
+            </th>
+            <th> @TranslateHelper.Translate("Email")</th>
+            <th> @TranslateHelper.Translate("FirstName")</th>
+            <th> @TranslateHelper.Translate("LastName")</th>
+            <th> @TranslateHelper.Translate("IsApproved")</th>
+            <th> @TranslateHelper.Translate("CreateDate")</th>
+            <th> @TranslateHelper.Translate("IsLockedOut")</th>
+            <th> @TranslateHelper.Translate("Roles")</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{ var index = 0;}
+        @foreach (var user in Model)
+        {
+            index++;
+            <tr>
+                <td>@index</td>
+                <td>@user.Username</td>
+                <td>@user.Email</td>
+                <td>@user.FirstName</td>
+                <td>@user.LastName</td>
+                <td>@Html.Raw(user.IsApproved ? "<span class='label label-success'>Approved</span>" : "<span class='label label-important'>Not approved</span>")</td>
+                <td>@(user.CreateDate.HasValue ? user.CreateDate.Value.ToShortDateString() : "")</td>
+                <td>@Html.Raw(user.IsLockedOut ? "<span class='label label-important'>Locked</span>" : "<span class='label label-success'>Unlocked</span>")</td>
+                <td>
+                    @{ var i = 0;}
+                    @foreach (var role in user.Roles)
+                    {
+                        if (i == 0)
+                        {
+                            @role
+                        }
+                        else
+                        {
+                            @(string.Format(",{0}",role))
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

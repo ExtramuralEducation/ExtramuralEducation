@@ -1,0 +1,2 @@
+K:\ExtramuralEducation\ExtramuralEducation.Core\bin\Home.Debug\ExtramuralEducation.Core.dll
+K:\ExtramuralEducation\ExtramuralEducation.Core\obj\Home.Debug\ExtramuralEducation.Core.dll

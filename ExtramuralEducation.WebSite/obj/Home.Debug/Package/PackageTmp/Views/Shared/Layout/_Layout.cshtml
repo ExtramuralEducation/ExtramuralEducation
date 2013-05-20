@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="@Url.Content(Links.Content.css.bootstrap_min_css)"/>
+    <link rel="stylesheet" href="@Url.Content(Links.Content.css.bootstrap_responsive_min_css)"/>
+    <script type="text/javascript" src="@Url.Content(Links.Scripts.bootstrap_min_js)"></script>
+    <script type="text/javascript" src="@Url.Content(Links.Scripts.jquery_1_9_1_min_js)"></script>
+    <title>@ViewBag.Title</title>
+    @RenderSection("header", false)
+</head>
+    <body>
+        @{Html.RenderAction(MVC.Menu.ActionNames.MainMenu, MVC.Menu.Name);}
+        <div class="row-fluid">
+            <div class="span9">
+                @RenderBody()
+            </div>
+        </div>
+    </body>
+</html>

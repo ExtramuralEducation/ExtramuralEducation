@@ -1,0 +1,16 @@
+F:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.ViewModels.dll
+F:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.ViewModels.pdb
+F:\ExtramuralEducation\ExtramuralEducation.ViewModels\obj\Debug\ExtramuralEducation.ViewModels.csprojResolveAssemblyReference.cache
+F:\ExtramuralEducation\ExtramuralEducation.ViewModels\obj\Debug\ExtramuralEducation.ViewModels.dll
+F:\ExtramuralEducation\ExtramuralEducation.ViewModels\obj\Debug\ExtramuralEducation.ViewModels.pdb
+K:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.ViewModels.dll
+K:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.ViewModels.pdb
+K:\ExtramuralEducation\ExtramuralEducation.ViewModels\obj\Debug\ExtramuralEducation.ViewModels.dll
+K:\ExtramuralEducation\ExtramuralEducation.ViewModels\obj\Debug\ExtramuralEducation.ViewModels.pdb
+K:\ExtramuralEducation\ExtramuralEducation.ViewModels\obj\Debug\ExtramuralEducation.ViewModels.csprojResolveAssemblyReference.cache
+F:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.Models.dll
+F:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.Models.pdb
+F:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\EntityFramework.dll
+F:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\EntityFramework.xml
+F:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.Core.dll
+F:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.Core.pdb
