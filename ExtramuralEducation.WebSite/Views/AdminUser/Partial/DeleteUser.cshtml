@@ -1,0 +1,6 @@
+﻿@model Guid
+<p>Do you really sure?</p>
+@using (Html.BeginForm(MVC.AdminUser.ActionNames.DeleteUser, MVC.AdminUser.Name, FormMethod.Post))
+{
+    @Html.Hidden("Id", Model)
+}
