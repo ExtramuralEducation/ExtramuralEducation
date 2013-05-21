@@ -35,12 +35,12 @@
 
             $('.close-modal').click(function (e) {
                 e.preventDefault();
-                $('#modal').modal('hide');
+                $(this).parents('.modal').modal('hide');
             });
 
             $('.submit-modal').click(function (e) {
                 e.preventDefault();
-                var form = $('#modalBody').find('form');
+                var form = $(this).parents('.modal').find('form');
                 var valid = form.valid();
                 console.log(valid);
 
@@ -69,8 +69,6 @@
                         alert("Can't connect to service");
                     }
                 });
-
-
             });
         })
     </script>
@@ -92,6 +90,18 @@
         </div>
         <div class="modal-footer">
             <a href="#" class="btn close-modal">@TranslateHelper.Translate("Close")</a><a href="#" class="btn btn-primary submit-modal">@TranslateHelper.Translate("Save")</a>
+        </div>
+    </div>
+        <div id="deleteModal" class="modal hide fade">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                &times;</button>
+            <h3>Confirmation</h3>
+        </div>
+        <div id="deleteModalBody" class="modal-body">
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="btn close-delete-modal">@TranslateHelper.Translate("No")</a><a href="#" class="btn btn-primary submit-modal">@TranslateHelper.Translate("Yes")</a>
         </div>
     </div>
 </body>

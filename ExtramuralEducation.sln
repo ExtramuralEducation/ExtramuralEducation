@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2010
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtramuralEducation.DataContext", "ExtramuralEducation.DataContext\ExtramuralEducation.DataContext.csproj", "{4F397699-F75B-45EB-85CA-1B24ABD8A97A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtramuralEducation.Repository.Contracts", "ExtramuralEducation.Repository.Contracts\ExtramuralEducation.Repository.Contracts.csproj", "{C550EB81-8BE9-4DCB-B65A-80750C1ACBF2}"

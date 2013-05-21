@@ -1,3 +1,9 @@
 K:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Home.Debug\ExtramuralEducation.Managers.Contracts.dll
 K:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Home.Debug\ExtramuralEducation.Models.dll
 K:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\obj\Home.Debug\ExtramuralEducation.Managers.Contracts.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Home.Debug\ExtramuralEducation.Managers.Contracts.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Home.Debug\ExtramuralEducation.Models.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Home.Debug\EntityFramework.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Home.Debug\EntityFramework.xml
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\obj\Home.Debug\ExtramuralEducation.Managers.Contracts.csprojResolveAssemblyReference.cache
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\obj\Home.Debug\ExtramuralEducation.Managers.Contracts.dll

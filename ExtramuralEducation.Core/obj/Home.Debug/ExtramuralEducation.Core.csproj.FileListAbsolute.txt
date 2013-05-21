@@ -1,2 +1,5 @@
 K:\ExtramuralEducation\ExtramuralEducation.Core\bin\Home.Debug\ExtramuralEducation.Core.dll
 K:\ExtramuralEducation\ExtramuralEducation.Core\obj\Home.Debug\ExtramuralEducation.Core.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Core\bin\Home.Debug\ExtramuralEducation.Core.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Core\obj\Home.Debug\ExtramuralEducation.Core.csprojResolveAssemblyReference.cache
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Core\obj\Home.Debug\ExtramuralEducation.Core.dll

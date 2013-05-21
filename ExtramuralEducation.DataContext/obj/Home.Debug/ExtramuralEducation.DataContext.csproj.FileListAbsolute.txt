@@ -4,3 +4,9 @@ K:\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Home.Debug\Extramural
 K:\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Home.Debug\EntityFramework.xml
 K:\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Home.Debug\ExtramuralEducation.DataContext.csprojResolveAssemblyReference.cache
 K:\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Home.Debug\ExtramuralEducation.DataContext.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Home.Debug\ExtramuralEducation.DataContext.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Home.Debug\EntityFramework.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Home.Debug\ExtramuralEducation.Models.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Home.Debug\EntityFramework.xml
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Home.Debug\ExtramuralEducation.DataContext.csprojResolveAssemblyReference.cache
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Home.Debug\ExtramuralEducation.DataContext.dll

@@ -5,3 +5,13 @@ K:\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\Omu.ValueInjec
 K:\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\Omu.ValueInjecter.xml
 K:\ExtramuralEducation\ExtramuralEducation.Mappers\obj\Home.Debug\ExtramuralEducation.Mappers.csprojResolveAssemblyReference.cache
 K:\ExtramuralEducation\ExtramuralEducation.Mappers\obj\Home.Debug\ExtramuralEducation.Mappers.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\ExtramuralEducation.Mappers.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\ExtramuralEducation.Models.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\ExtramuralEducation.ViewModels.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\Omu.ValueInjecter.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\EntityFramework.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\ExtramuralEducation.Core.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\Omu.ValueInjecter.xml
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Home.Debug\EntityFramework.xml
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\obj\Home.Debug\ExtramuralEducation.Mappers.csprojResolveAssemblyReference.cache
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\obj\Home.Debug\ExtramuralEducation.Mappers.dll

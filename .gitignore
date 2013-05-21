@@ -5,3 +5,11 @@
 *.cache
 
 /key.ppk
+
+*.force
+
+/ExtramuralEducation.Managers.Contracts/bin/Home.Debug/EntityFramework.xml
+/ExtramuralEducation.Managers/bin/Home.Debug/EntityFramework.xml
+/ExtramuralEducation.Mappers/bin/Home.Debug/EntityFramework.xml
+/ExtramuralEducation.Models/bin/Home.Debug/EntityFramework.xml
+/ExtramuralEducation.ViewModels/bin/Home.Debug/EntityFramework.xml
