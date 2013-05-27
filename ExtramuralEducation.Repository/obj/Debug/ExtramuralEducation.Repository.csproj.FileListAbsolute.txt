@@ -34,3 +34,15 @@ H:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\EntityFramework.
 H:\ExtramuralEducation\ExtramuralEducation.Repository\obj\Debug\ExtramuralEducation.Repository.csprojResolveAssemblyReference.cache
 H:\ExtramuralEducation\ExtramuralEducation.Repository\obj\Debug\ExtramuralEducation.Repository.dll
 H:\ExtramuralEducation\ExtramuralEducation.Repository\obj\Debug\ExtramuralEducation.Repository.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Repository.dll.config
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Repository.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Repository.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\EntityFramework.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Models.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Repository.Contracts.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Models.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Repository.Contracts.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\EntityFramework.xml
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository\obj\Debug\ExtramuralEducation.Repository.csprojResolveAssemblyReference.cache
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository\obj\Debug\ExtramuralEducation.Repository.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository\obj\Debug\ExtramuralEducation.Repository.pdb

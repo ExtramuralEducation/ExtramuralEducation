@@ -12,7 +12,7 @@ namespace ExtramuralEducation.Managers.Contracts
 
         IEnumerable<Institution> GetAll();
 
-        IEnumerable<Institution> GetInstitutesNamesForUser(Guid userId);
+        IEnumerable<Institution> GetInstitutesForUser(Guid userId);
 
         bool AddInstitute(Institution entitty);
 

@@ -17,3 +17,10 @@ H:\ExtramuralEducation\ExtramuralEducation.Models\bin\Debug\EntityFramework.xml
 H:\ExtramuralEducation\ExtramuralEducation.Models\obj\Debug\ExtramuralEducation.Models.csprojResolveAssemblyReference.cache
 H:\ExtramuralEducation\ExtramuralEducation.Models\obj\Debug\ExtramuralEducation.Models.dll
 H:\ExtramuralEducation\ExtramuralEducation.Models\obj\Debug\ExtramuralEducation.Models.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Models\bin\Debug\ExtramuralEducation.Models.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Models\bin\Debug\ExtramuralEducation.Models.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Models\bin\Debug\EntityFramework.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Models\bin\Debug\EntityFramework.xml
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Models\obj\Debug\ExtramuralEducation.Models.csprojResolveAssemblyReference.cache
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Models\obj\Debug\ExtramuralEducation.Models.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Models\obj\Debug\ExtramuralEducation.Models.pdb

@@ -8,9 +8,9 @@ using ExtramuralEducation.Models.Constants;
 namespace ExtramuralEducation.WebSite.Controllers.Manager
 {
     [Authorize(Roles = RolesNames.Manager)]
-    public class ManagerTeachersController : BaseController
+    public partial class ManagerTeachersController : BaseController
     {
-        public ActionResult Index()
+        public virtual ActionResult Index()
         {
             return View();
         }

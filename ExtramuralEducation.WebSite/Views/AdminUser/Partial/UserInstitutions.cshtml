@@ -1,0 +1,63 @@
+﻿@using ExtramuralEducation.Core
+@model ExtramuralEducation.ViewModels.UserInstitutionsViewModel
+
+@using (Html.BeginForm(MVC.AdminUser.ActionNames.EditUsersInstitutions, MVC.AdminUser.Name, FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    <div class="control-group">
+        <label class="control-label">@TranslateHelper.Translate("Institutes")</label>
+        <div class="controls">
+            @Html.DropDownList("Institutes", Model.InstitutionsList)
+            <a href="#" id="addInstitute">@TranslateHelper.Translate("Add")</a>
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">@TranslateHelper.Translate("User in institutes")</label>
+        <div class="controls">
+                <ul class="user2institute">
+                    @{ var i = 0;}
+                    @foreach (var institute in Model.Institutions)
+                    {
+                        <li>
+                            <label>@institute.Name</label>
+                            <input type="hidden" class="currentInsitutes" name="Institutions[@i].Id" value="@institute.Id"/>
+                            <a href="#" class="remove-institute"><i class="icon-remove"></i></a>
+                        </li>
+                        i++;
+                    }
+                </ul>
+        </div>
+    </div>
+    @Html.HiddenFor(x => x.Username)
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#addInstitute').click(function (e) {
+                e.preventDefault();
+                var instituteName = $('#Institutes option:selected').text();
+                var insituteId = $('#Institutes option:selected').val();
+
+                if ($('.currentInsitutes[value="' + insituteId + '"]').length < 1) {
+                    var hidden = '<input type="hidden" class="currentInsitutes" name="Institutions" value="' + insituteId + '"/>';
+                    var label = '<label class="control-label">' + instituteName + '</label>';
+                    var div = $('<li></li>').append(hidden).append(label);
+                    $('.user2institute').append(div);
+                    AsArray();
+                } else {
+                    alert('@TranslateHelper.Translate("User already is in institute")');
+                }
+            });
+            $('.remove-institute').click(function (e) {
+                e.preventDefault();
+                $(this).parent().remove();
+                AsArray();
+            });
+        });
+
+        function AsArray() {
+            var i = 0;
+            $('.currentInsitutes').each(function () {
+                $(this).attr('name', 'Institutions[' + i + '].Id');
+                i++;
+            });
+        }
+    </script>
+}

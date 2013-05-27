@@ -25,3 +25,12 @@ H:\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\EntityFramework
 H:\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Debug\ExtramuralEducation.DataContext.csprojResolveAssemblyReference.cache
 H:\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Debug\ExtramuralEducation.DataContext.dll
 H:\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Debug\ExtramuralEducation.DataContext.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\ExtramuralEducation.DataContext.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\ExtramuralEducation.DataContext.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\EntityFramework.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\ExtramuralEducation.Models.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\ExtramuralEducation.Models.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\EntityFramework.xml
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Debug\ExtramuralEducation.DataContext.csprojResolveAssemblyReference.cache
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Debug\ExtramuralEducation.DataContext.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Debug\ExtramuralEducation.DataContext.pdb

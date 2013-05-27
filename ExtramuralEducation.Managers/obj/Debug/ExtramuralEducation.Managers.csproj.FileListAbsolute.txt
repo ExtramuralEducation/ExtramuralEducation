@@ -46,3 +46,16 @@ H:\ExtramuralEducation\ExtramuralEducation.Managers\bin\Debug\EntityFramework.xm
 H:\ExtramuralEducation\ExtramuralEducation.Managers\obj\Debug\ExtramuralEducation.Managers.csprojResolveAssemblyReference.cache
 H:\ExtramuralEducation\ExtramuralEducation.Managers\obj\Debug\ExtramuralEducation.Managers.dll
 H:\ExtramuralEducation\ExtramuralEducation.Managers\obj\Debug\ExtramuralEducation.Managers.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\bin\Debug\ExtramuralEducation.Managers.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\bin\Debug\ExtramuralEducation.Managers.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\bin\Debug\ExtramuralEducation.Managers.Contracts.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\bin\Debug\ExtramuralEducation.Models.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\bin\Debug\ExtramuralEducation.Repository.Contracts.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\bin\Debug\EntityFramework.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\bin\Debug\ExtramuralEducation.Managers.Contracts.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\bin\Debug\ExtramuralEducation.Models.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\bin\Debug\ExtramuralEducation.Repository.Contracts.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\bin\Debug\EntityFramework.xml
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\obj\Debug\ExtramuralEducation.Managers.csprojResolveAssemblyReference.cache
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\obj\Debug\ExtramuralEducation.Managers.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Managers\obj\Debug\ExtramuralEducation.Managers.pdb

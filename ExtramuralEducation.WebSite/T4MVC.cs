@@ -27,7 +27,9 @@ public static class MVC
     public static ExtramuralEducation.WebSite.Controllers.AccountController Account = new ExtramuralEducation.WebSite.Controllers.T4MVC_AccountController();
     public static ExtramuralEducation.WebSite.Controllers.Admin.AdminInstitutionController AdminInstitution = new ExtramuralEducation.WebSite.Controllers.Admin.T4MVC_AdminInstitutionController();
     public static ExtramuralEducation.WebSite.Controllers.Admin.AdminUserController AdminUser = new ExtramuralEducation.WebSite.Controllers.Admin.T4MVC_AdminUserController();
+    public static ExtramuralEducation.WebSite.Controllers.BaseController Base = new ExtramuralEducation.WebSite.Controllers.T4MVC_BaseController();
     public static ExtramuralEducation.WebSite.Controllers.HomeController Home = new ExtramuralEducation.WebSite.Controllers.T4MVC_HomeController();
+    public static ExtramuralEducation.WebSite.Controllers.Manager.ManagerTeachersController ManagerTeachers = new ExtramuralEducation.WebSite.Controllers.Manager.T4MVC_ManagerTeachersController();
     public static ExtramuralEducation.WebSite.Controllers.ManagerController Manager = new ExtramuralEducation.WebSite.Controllers.T4MVC_ManagerController();
     public static ExtramuralEducation.WebSite.Controllers.MenuController Menu = new ExtramuralEducation.WebSite.Controllers.T4MVC_MenuController();
     public static ExtramuralEducation.WebSite.Controllers.PupilController Pupil = new ExtramuralEducation.WebSite.Controllers.T4MVC_PupilController();

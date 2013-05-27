@@ -48,11 +48,13 @@
                         }
                         else
                         {
-                            @(string.Format(",{0}",role))
+                            @(string.Format(", {0}",role))
                         }
+                        i++;
                     }
                 </td>
-                <td><a href="@Url.Action(MVC.AdminUser.ActionNames.DeleteUser, MVC.AdminUser.Name, new {userName = user.Username})" class="open-delete-popup">Delete</a></td>
+                <td><a href="@Url.Action(MVC.AdminUser.ActionNames.EditUsersInstitutions, MVC.AdminUser.Name, new {userName = user.Username})" class="open-popup">@TranslateHelper.Translate("User institutes")</a></td>
+                <td><a href="@Url.Action(MVC.AdminUser.ActionNames.DeleteUser, MVC.AdminUser.Name, new {userName = user.Username})" class="open-delete-popup">@TranslateHelper.Translate("Delete")</a></td>
             </tr>
         }
     </tbody>

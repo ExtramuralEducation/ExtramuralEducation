@@ -1,2 +1,5 @@
 K:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\bin\Home.Debug\ExtramuralEducation.Repository.Contracts.dll
 K:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Home.Debug\ExtramuralEducation.Repository.Contracts.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\bin\Home.Debug\ExtramuralEducation.Repository.Contracts.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Home.Debug\ExtramuralEducation.Repository.Contracts.csprojResolveAssemblyReference.cache
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Home.Debug\ExtramuralEducation.Repository.Contracts.dll

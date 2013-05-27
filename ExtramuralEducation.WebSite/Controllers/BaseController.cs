@@ -7,7 +7,7 @@ using ExtramuralEducation.Models.Constants;
 
 namespace ExtramuralEducation.WebSite.Controllers
 {
-    public class BaseController : Controller
+    public partial class BaseController : Controller
     {
         protected Guid CurrentUserId 
         {

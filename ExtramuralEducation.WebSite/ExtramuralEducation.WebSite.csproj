@@ -143,6 +143,9 @@
     <Compile Include="AdminUserController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
+    <Compile Include="BaseController.generated.cs">
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
     <Compile Include="Bootstrapper.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\Admin\AdminInstitutionController.cs" />
@@ -161,6 +164,9 @@
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
     <Compile Include="ManagerController.generated.cs">
+      <DependentUpon>T4MVC.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerTeachersController.generated.cs">
       <DependentUpon>T4MVC.tt</DependentUpon>
     </Compile>
     <Compile Include="Membership\CodeFirstMembershipProvider.cs" />
@@ -229,10 +235,12 @@
     <Content Include="Views\AdminInstitution\Partial\Add.cshtml" />
     <Content Include="Web.Home.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\AdminUser\Index.cshtml" />
     <Content Include="Views\AdminUser\Partial\UserFields.cshtml" />
     <Content Include="Views\AdminUser\Partial\DeleteUser.cshtml" />
+    <Content Include="Views\AdminUser\Partial\UserInstitutions.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

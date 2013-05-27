@@ -34,7 +34,7 @@ namespace ExtramuralEducation.Managers
         }
 
 
-        public IEnumerable<Institution> GetInstitutesNamesForUser(Guid userId)
+        public IEnumerable<Institution> GetInstitutesForUser(Guid userId)
         {
             return _user2InstitutionRepository
                 .GetAll(x => x.Institution, x => x.User)

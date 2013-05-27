@@ -36,7 +36,7 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
 
             foreach (var user in viewModel)
             {
-                user.Institutions = this._institutionManager.GetInstitutesNamesForUser(user.UserId);
+                user.Institutions = this._institutionManager.GetInstitutesForUser(user.UserId);
             }
 
             return View(viewModel);
@@ -77,9 +77,37 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
                     return this.Json(new { success = true });
                 }
             }
+
             return this.Json(new { success = false, errors = this.ModelErrorString() });
         }
         #endregion
+
+        [HttpGet]
+        public virtual ActionResult EditUsersInstitutions(string userName)
+        {
+            var user = WebSecurity.GetUser(userName);
+            var viewModel = new UserInstitutionsViewModel();
+            viewModel.InstitutionsList = this._institutionManager.GetAll().Select(x => new SelectListItem(){Text = x.Name, Value = x.Id.ToString()});
+            viewModel.Institutions =
+                this._institutionManager.GetInstitutesForUser((Guid) user.ProviderUserKey)
+                    .Select(InstitutionMapper.ToViewModelExp);
+
+            return PartialView(MVC.AdminUser.Views.Partial.UserInstitutions, viewModel);
+        }
+
+        [HttpPost]
+        public virtual ActionResult EditUsersInstitutions(UserInstitutionsViewModel viewModel)
+        {
+            if (ModelState.IsValid && Request.IsAjaxRequest())
+            {
+                var user = WebSecurity.GetUser(viewModel.Username);
+                this._institutionManager.AddUserToInstitutes(viewModel.Institutions.Select(x => x.Id), (Guid)user.ProviderUserKey);
+
+                return this.Json(new { success = true });
+            }
+
+            return this.Json(new { success = false, errors = this.ModelErrorString() });
+        }
 
         [HttpGet]
         public virtual ActionResult DeleteUser(string userName)

@@ -43,6 +43,12 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
 
         [NonAction]
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public virtual System.Web.Mvc.ActionResult EditUsersInstitutions()
+        {
+            return new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.EditUsersInstitutions);
+        }
+        [NonAction]
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public virtual System.Web.Mvc.ActionResult DeleteUser()
         {
             return new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.DeleteUser);
@@ -65,6 +71,7 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
         {
             public readonly string Index = "Index";
             public readonly string AddUser = "AddUser";
+            public readonly string EditUsersInstitutions = "EditUsersInstitutions";
             public readonly string DeleteUser = "DeleteUser";
         }
 
@@ -73,6 +80,7 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
         {
             public const string Index = "Index";
             public const string AddUser = "AddUser";
+            public const string EditUsersInstitutions = "EditUsersInstitutions";
             public const string DeleteUser = "DeleteUser";
         }
 
@@ -83,6 +91,15 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public class ActionParamsClass_AddUser
         {
+            public readonly string viewModel = "viewModel";
+        }
+        static readonly ActionParamsClass_EditUsersInstitutions s_params_EditUsersInstitutions = new ActionParamsClass_EditUsersInstitutions();
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public ActionParamsClass_EditUsersInstitutions EditUsersInstitutionsParams { get { return s_params_EditUsersInstitutions; } }
+        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
+        public class ActionParamsClass_EditUsersInstitutions
+        {
+            public readonly string userName = "userName";
             public readonly string viewModel = "viewModel";
         }
         static readonly ActionParamsClass_DeleteUser s_params_DeleteUser = new ActionParamsClass_DeleteUser();
@@ -118,9 +135,11 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
                 {
                     public readonly string DeleteUser = "DeleteUser";
                     public readonly string UserFields = "UserFields";
+                    public readonly string UserInstitutions = "UserInstitutions";
                 }
                 public readonly string DeleteUser = "~/Views/AdminUser/Partial/DeleteUser.cshtml";
                 public readonly string UserFields = "~/Views/AdminUser/Partial/UserFields.cshtml";
+                public readonly string UserInstitutions = "~/Views/AdminUser/Partial/UserInstitutions.cshtml";
             }
         }
     }
@@ -155,6 +174,26 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
             var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.AddUser);
             ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "viewModel", viewModel);
             AddUserOverride(callInfo, viewModel);
+            return callInfo;
+        }
+
+        partial void EditUsersInstitutionsOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, string userName);
+
+        public override System.Web.Mvc.ActionResult EditUsersInstitutions(string userName)
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.EditUsersInstitutions);
+            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "userName", userName);
+            EditUsersInstitutionsOverride(callInfo, userName);
+            return callInfo;
+        }
+
+        partial void EditUsersInstitutionsOverride(T4MVC_System_Web_Mvc_ActionResult callInfo, ExtramuralEducation.ViewModels.UserInstitutionsViewModel viewModel);
+
+        public override System.Web.Mvc.ActionResult EditUsersInstitutions(ExtramuralEducation.ViewModels.UserInstitutionsViewModel viewModel)
+        {
+            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.EditUsersInstitutions);
+            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "viewModel", viewModel);
+            EditUsersInstitutionsOverride(callInfo, viewModel);
             return callInfo;
         }
 

@@ -39,3 +39,18 @@ H:\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\ExtramuralEducation
 H:\ExtramuralEducation\ExtramuralEducation.Mappers\obj\Debug\ExtramuralEducation.Mappers.csprojResolveAssemblyReference.cache
 H:\ExtramuralEducation\ExtramuralEducation.Mappers\obj\Debug\ExtramuralEducation.Mappers.dll
 H:\ExtramuralEducation\ExtramuralEducation.Mappers\obj\Debug\ExtramuralEducation.Mappers.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\ExtramuralEducation.Mappers.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\ExtramuralEducation.Mappers.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\ExtramuralEducation.Models.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\ExtramuralEducation.ViewModels.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\Omu.ValueInjecter.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\EntityFramework.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\ExtramuralEducation.Core.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\ExtramuralEducation.Models.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\ExtramuralEducation.ViewModels.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\Omu.ValueInjecter.xml
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\EntityFramework.xml
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\bin\Debug\ExtramuralEducation.Core.pdb
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\obj\Debug\ExtramuralEducation.Mappers.csprojResolveAssemblyReference.cache
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\obj\Debug\ExtramuralEducation.Mappers.dll
+D:\Git projects\ExtramuralEducation\ExtramuralEducation.Mappers\obj\Debug\ExtramuralEducation.Mappers.pdb
