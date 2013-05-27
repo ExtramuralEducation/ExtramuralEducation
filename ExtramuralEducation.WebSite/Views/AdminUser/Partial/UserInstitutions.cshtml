@@ -37,7 +37,7 @@
 
                 if ($('.currentInsitutes[value="' + insituteId + '"]').length < 1) {
                     var hidden = '<input type="hidden" class="currentInsitutes" name="Institutions" value="' + insituteId + '"/>';
-                    var label = '<label class="control-label">' + instituteName + '</label>';
+                    var label = '<label>' + instituteName + '</label>';
                     var div = $('<li></li>').append(hidden).append(label);
                     $('.user2institute').append(div);
                     AsArray();
