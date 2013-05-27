@@ -11,6 +11,7 @@ namespace ExtramuralEducation.Managers
     public class UserManager:IUserManager
     {
         private readonly IRepository<User> _userRepository;
+        private readonly IRepository<User2Institurion> _user2InstitutionRepository;
 
         public UserManager(IRepository<User> userRepository)
         {
@@ -20,6 +21,11 @@ namespace ExtramuralEducation.Managers
         public IEnumerable<User> GetAllUsers()
         {
             return this._userRepository.GetAll();
+        }
+
+        public bool UserExist(Guid userId)
+        {
+            return this.GetAllUsers().Any(x => x.UserId == userId);
         }
     }
 }

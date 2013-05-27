@@ -14,3 +14,14 @@ F:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\EntityFramework.
 F:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\EntityFramework.xml
 F:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.Core.dll
 F:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.Core.pdb
+H:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.ViewModels.dll
+H:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.ViewModels.pdb
+H:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.Core.dll
+H:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.Models.dll
+H:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\EntityFramework.dll
+H:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.Core.pdb
+H:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\ExtramuralEducation.Models.pdb
+H:\ExtramuralEducation\ExtramuralEducation.ViewModels\bin\Debug\EntityFramework.xml
+H:\ExtramuralEducation\ExtramuralEducation.ViewModels\obj\Debug\ExtramuralEducation.ViewModels.csprojResolveAssemblyReference.cache
+H:\ExtramuralEducation\ExtramuralEducation.ViewModels\obj\Debug\ExtramuralEducation.ViewModels.dll
+H:\ExtramuralEducation\ExtramuralEducation.ViewModels\obj\Debug\ExtramuralEducation.ViewModels.pdb

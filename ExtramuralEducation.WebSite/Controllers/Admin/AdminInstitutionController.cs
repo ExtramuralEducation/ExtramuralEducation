@@ -5,11 +5,13 @@ using System.Web;
 using System.Web.Mvc;
 using ExtramuralEducation.Managers.Contracts;
 using ExtramuralEducation.Mappers;
+using ExtramuralEducation.Models.Constants;
 using ExtramuralEducation.ViewModels;
 
 namespace ExtramuralEducation.WebSite.Controllers.Admin
 {
-    public partial class AdminInstitutionController : Controller
+    [Authorize(Roles = RolesNames.Administrator)]
+    public partial class AdminInstitutionController : BaseController
     {
         private readonly IInstitutionManager _institutionManager;
 

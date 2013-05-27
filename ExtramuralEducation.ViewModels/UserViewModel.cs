@@ -14,6 +14,7 @@ namespace ExtramuralEducation.ViewModels
         public UserViewModel()
         {
             this.Roles = new List<string>();
+            this.Institutions = new LinkedList<Institution>();
         }
 
         public  Guid UserId { get; set; }
@@ -51,6 +52,10 @@ namespace ExtramuralEducation.ViewModels
 
         public string Role { get; set; }
 
+        public IEnumerable<Institution> Institutions { get; set; }
+
         public IEnumerable<SelectListItem> RolesListItems { get; set; }
+
+        public IEnumerable<SelectListItem> InstituteItems { get; set; } 
     }
 }

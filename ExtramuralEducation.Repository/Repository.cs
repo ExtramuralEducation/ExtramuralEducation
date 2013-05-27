@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using ExtramuralEducation.Models;
 using ExtramuralEducation.Repository.Contracts;
@@ -31,6 +32,11 @@ namespace ExtramuralEducation.Repository
         public IQueryable<TEntity> GetAll()
         {
             return DbSet.AsQueryable();
+        }
+
+        public IQueryable<TEntity> GetAll(params Expression<Func<TEntity, object>>[] includeProperties)
+        {
+            return includeProperties.Aggregate(this.DbSet.AsQueryable(), (entity, expression) => entity.Include(expression));
         }
 
         public void Add(TEntity entity)

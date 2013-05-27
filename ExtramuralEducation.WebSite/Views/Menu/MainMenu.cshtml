@@ -1,4 +1,4 @@
-﻿@model IEnumerable<ExtramuralEducation.ViewModels.MenuItem>
+﻿@model ExtramuralEducation.ViewModels.MenuViewModel
 
 <div class="navbar navbar-inverse">
     <div class="navbar-inner">
@@ -6,32 +6,32 @@
             <a class="brand" href="#">Extramural Education</a>
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    @foreach (var menuItem in Model)
+                    @foreach (var menuItem in Model.MenuItems)
                     {
                         if (menuItem.SubItems.Count == 0)
                         {
-                        <li @(menuItem.Selected ? "class='active'" : string.Empty)>
-                            <a href="@Url.Action(menuItem.Action, menuItem.Controller)">@menuItem.Text</a>
-                        </li>
+                            <li @(menuItem.Selected ? "class='active'" : string.Empty)>
+                                <a href="@Url.Action(menuItem.Action, menuItem.Controller)">@menuItem.Text</a>
+                            </li>
                         }
                         else
                         {
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">@menuItem.Text
-                                <b class="caret"></b>
-                            </a>
-                            <ul class="dropdown-menu">
-                                @foreach (var subItem in menuItem.SubItems)
-                                {
-                                    <li><a href="@Url.Action(subItem.Action, subItem.Controller)">@subItem.Text</a></li>
-                                }
-                            </ul>
-                        </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">@menuItem.Text
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    @foreach (var subItem in menuItem.SubItems)
+                                    {
+                                        <li><a href="@Url.Action(subItem.Action, subItem.Controller)">@subItem.Text</a></li>
+                                    }
+                                </ul>
+                            </li>
                         }
                     }
                 </ul>
+                <h4 style="float: right; color:#fff; margin-right: 40px;">@Model.UserName</h4>
             </div>
-
         </div>
     </div>
 </div>

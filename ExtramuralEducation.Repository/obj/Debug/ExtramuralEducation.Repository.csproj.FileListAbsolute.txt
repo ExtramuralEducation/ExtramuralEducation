@@ -22,3 +22,15 @@ F:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducat
 F:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Models.pdb
 F:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Repository.Contracts.pdb
 F:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\EntityFramework.xml
+H:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Repository.dll.config
+H:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Repository.dll
+H:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Repository.pdb
+H:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\EntityFramework.dll
+H:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Models.dll
+H:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Repository.Contracts.dll
+H:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Models.pdb
+H:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\ExtramuralEducation.Repository.Contracts.pdb
+H:\ExtramuralEducation\ExtramuralEducation.Repository\bin\Debug\EntityFramework.xml
+H:\ExtramuralEducation\ExtramuralEducation.Repository\obj\Debug\ExtramuralEducation.Repository.csprojResolveAssemblyReference.cache
+H:\ExtramuralEducation\ExtramuralEducation.Repository\obj\Debug\ExtramuralEducation.Repository.dll
+H:\ExtramuralEducation\ExtramuralEducation.Repository\obj\Debug\ExtramuralEducation.Repository.pdb

@@ -21,3 +21,12 @@ F:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Debug\EntityFr
 F:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\obj\Debug\ExtramuralEducation.Managers.Contracts.csprojResolveAssemblyReference.cache
 F:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\obj\Debug\ExtramuralEducation.Managers.Contracts.dll
 F:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\obj\Debug\ExtramuralEducation.Managers.Contracts.pdb
+H:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Debug\ExtramuralEducation.Managers.Contracts.dll
+H:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Debug\ExtramuralEducation.Managers.Contracts.pdb
+H:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Debug\ExtramuralEducation.Models.dll
+H:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Debug\EntityFramework.dll
+H:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Debug\ExtramuralEducation.Models.pdb
+H:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\bin\Debug\EntityFramework.xml
+H:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\obj\Debug\ExtramuralEducation.Managers.Contracts.csprojResolveAssemblyReference.cache
+H:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\obj\Debug\ExtramuralEducation.Managers.Contracts.dll
+H:\ExtramuralEducation\ExtramuralEducation.Managers.Contracts\obj\Debug\ExtramuralEducation.Managers.Contracts.pdb

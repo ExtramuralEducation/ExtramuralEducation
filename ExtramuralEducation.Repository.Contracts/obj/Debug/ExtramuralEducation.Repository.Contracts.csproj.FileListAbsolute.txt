@@ -7,3 +7,8 @@ K:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\bin\Debug\Extram
 K:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Debug\ExtramuralEducation.Repository.Contracts.dll
 K:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Debug\ExtramuralEducation.Repository.Contracts.pdb
 K:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Debug\ExtramuralEducation.Repository.Contracts.csprojResolveAssemblyReference.cache
+H:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\bin\Debug\ExtramuralEducation.Repository.Contracts.dll
+H:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\bin\Debug\ExtramuralEducation.Repository.Contracts.pdb
+H:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Debug\ExtramuralEducation.Repository.Contracts.csprojResolveAssemblyReference.cache
+H:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Debug\ExtramuralEducation.Repository.Contracts.dll
+H:\ExtramuralEducation\ExtramuralEducation.Repository.Contracts\obj\Debug\ExtramuralEducation.Repository.Contracts.pdb

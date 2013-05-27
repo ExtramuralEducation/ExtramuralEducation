@@ -9,5 +9,7 @@ namespace ExtramuralEducation.Managers.Contracts
     public interface IUserManager
     {
         IEnumerable<User> GetAllUsers();
+
+        bool UserExist(Guid userId);
     }
 }

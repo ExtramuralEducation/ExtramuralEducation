@@ -23,11 +23,12 @@ namespace ExtramuralEducation.WebSite
         {
             var container = new UnityContainer();
 
-            container.RegisterType<DbContext, ExtramuralEducation.DataContext.DataContext>();
+            container.RegisterType<DbContext, DataContext.DataContext>();
 
             //Repositories
             container.RegisterType<IRepository<Institution>, Repository<Institution>>();
-            container.RegisterType<IRepository<User>, Repository<User>>();  
+            container.RegisterType<IRepository<User>, Repository<User>>();
+            container.RegisterType<IRepository<User2Institurion>, Repository<User2Institurion>>();  
        
             //Managers
             container.RegisterType<IInstitutionManager, InstitutionManager>();

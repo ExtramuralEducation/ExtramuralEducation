@@ -19,5 +19,7 @@ namespace ExtramuralEducation.DataContext
         public DbSet<Role> Roles { get; set; }
 
         public DbSet<Institution> Institutions { get; set; }
+
+        public DbSet<User2Institurion> User2Institurions { get; set; }
     }
 }

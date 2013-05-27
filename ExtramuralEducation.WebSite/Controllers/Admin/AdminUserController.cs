@@ -7,17 +7,22 @@ using System.Web.Mvc;
 using System.Web.Security;
 using ExtramuralEducation.Managers.Contracts;
 using ExtramuralEducation.Mappers;
+using ExtramuralEducation.Models.Constants;
 using ExtramuralEducation.ViewModels;
 
 namespace ExtramuralEducation.WebSite.Controllers.Admin
 {
-    public partial class AdminUserController : Controller
+    [Authorize(Roles = RolesNames.Administrator)]
+    public partial class AdminUserController : BaseController
     {
         private readonly IUserManager _userManager;
 
-        public AdminUserController(IUserManager userManager)
+        private readonly IInstitutionManager _institutionManager;
+
+        public AdminUserController(IUserManager userManager, IInstitutionManager institutionManager)
         {
             this._userManager = userManager;
+            this._institutionManager = institutionManager;
         }
 
         public virtual ActionResult Index()
@@ -27,6 +32,11 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
             foreach (var user in viewModel)
             {
                 user.Roles = Roles.GetRolesForUser(user.Username);
+            }
+
+            foreach (var user in viewModel)
+            {
+                user.Institutions = this._institutionManager.GetInstitutesNamesForUser(user.UserId);
             }
 
             return View(viewModel);
@@ -39,6 +49,8 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
         {
             var viewModel = new UserViewModel();
             viewModel.RolesListItems = Roles.GetAllRoles().Select(x => new SelectListItem() { Text = x, Value = x });
+            viewModel.InstituteItems =
+                this._institutionManager.GetAll().Select(x => new SelectListItem() { Text = x.Name, Value = x.Id.ToString() });
 
             return PartialView(MVC.AdminUser.Views.Partial.UserFields, viewModel);
         }
@@ -59,6 +71,9 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
                         Roles.AddUserToRole(viewModel.Username, viewModel.Role);
                     }
 
+                    var user = WebSecurity.GetUser(viewModel.Username);
+                    this._institutionManager.AddUserToInstitutes(viewModel.Institutions.Select(x => x.Id), (Guid)user.ProviderUserKey);
+
                     return this.Json(new { success = true });
                 }
             }
@@ -70,7 +85,7 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
         public virtual ActionResult DeleteUser(string userName)
         {
             var userId = WebSecurity.GetUserId(userName);
-            return PartialView(MVC.AdminUser.Views.Partial.DeleteUser,userId);
+            return PartialView(MVC.AdminUser.Views.Partial.DeleteUser, userId);
         }
 
         [HttpPost]
@@ -79,20 +94,6 @@ namespace ExtramuralEducation.WebSite.Controllers.Admin
             var isDeleted = WebSecurity.DeleteUserById(Id);
 
             return this.Json(new { success = isDeleted });
-
         }
-
-        private List<string> ModelErrorString()
-        {
-            var errors = new List<string>();
-
-            foreach (var er in this.ModelState)
-            {
-                errors.AddRange(er.Value.Errors.Select(x => x.ErrorMessage));
-            }
-
-            return errors;
-        }
-
     }
 }

@@ -16,3 +16,12 @@ K:\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\EntityFramework
 K:\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Debug\ExtramuralEducation.DataContext.csprojResolveAssemblyReference.cache
 K:\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Debug\ExtramuralEducation.DataContext.dll
 K:\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Debug\ExtramuralEducation.DataContext.pdb
+H:\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\ExtramuralEducation.DataContext.dll
+H:\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\ExtramuralEducation.DataContext.pdb
+H:\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\EntityFramework.dll
+H:\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\ExtramuralEducation.Models.dll
+H:\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\ExtramuralEducation.Models.pdb
+H:\ExtramuralEducation\ExtramuralEducation.DataContext\bin\Debug\EntityFramework.xml
+H:\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Debug\ExtramuralEducation.DataContext.csprojResolveAssemblyReference.cache
+H:\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Debug\ExtramuralEducation.DataContext.dll
+H:\ExtramuralEducation\ExtramuralEducation.DataContext\obj\Debug\ExtramuralEducation.DataContext.pdb
