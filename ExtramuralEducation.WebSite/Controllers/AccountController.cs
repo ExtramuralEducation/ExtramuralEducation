@@ -4,13 +4,21 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
+using ExtramuralEducation.Managers.Contracts;
 using ExtramuralEducation.Models.Constants;
 using ExtramuralEducation.ViewModels;
 
 namespace ExtramuralEducation.WebSite.Controllers
 {
-    public partial class AccountController : Controller
+    public partial class AccountController : BaseController
     {
+        private readonly IInstitutionManager _institutionManager;
+
+        public AccountController(IInstitutionManager institutionManager)
+        {
+            this._institutionManager = institutionManager;
+        }
+
         #region LogOn
         [HttpGet]
         public virtual ActionResult LogOn()
@@ -36,26 +44,13 @@ namespace ExtramuralEducation.WebSite.Controllers
 
         public virtual ActionResult RedirectByRole(string userName)
         {
-            var roles = Roles.GetRolesForUser(userName);
+            var user = WebSecurity.GetUser(userName);
+            this.CurrentUserId = (Guid)user.ProviderUserKey;
+            var institute = this._institutionManager.GetInstitutesForUser((Guid) user.ProviderUserKey).FirstOrDefault();
 
-            if (roles.Any(x => x == RolesNames.Manager))
+            if (institute != null)
             {
-                return RedirectToAction("Index", "Manager");
-            }
-
-            if (roles.Any(x => x == RolesNames.Teacher))
-            {
-                return RedirectToAction("Index", "Teacher");
-            }
-
-            if (roles.Any(x => x == RolesNames.Pupil))
-            {
-                return RedirectToAction("Index", "Pupil");
-            }
-
-            if (roles.Any(x => x == RolesNames.Administrator))
-            {
-                return RedirectToAction("Index", "Admin");
+                this.CurrentInstitutionId = institute.Id;
             }
 
             return RedirectToAction("Index", "Home");

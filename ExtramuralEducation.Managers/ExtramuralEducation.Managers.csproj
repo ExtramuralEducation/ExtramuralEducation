@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="InstitutionManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TeacherManager.cs" />
     <Compile Include="UserManager.cs" />
   </ItemGroup>
   <ItemGroup>

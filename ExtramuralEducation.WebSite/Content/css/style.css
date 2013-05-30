@@ -1,4 +1,11 @@
-﻿div.errors {
+﻿body {
+    background-color: #98FB98 !important;
+}
+
+div {
+    background-color: #98FB98;
+}
+div.errors {
     background-color: #c0c0c0;
 }
 

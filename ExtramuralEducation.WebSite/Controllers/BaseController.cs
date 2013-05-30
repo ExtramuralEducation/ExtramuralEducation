@@ -11,7 +11,8 @@ namespace ExtramuralEducation.WebSite.Controllers
     {
         protected Guid CurrentUserId 
         {
-            get { return (Guid)this.Session[SessionKeys.UserId]; }
+            get { return (Guid)this.HttpContext.Cache[CacheKeys.UserId]; }
+            set { this.HttpContext.Cache[CacheKeys.UserId] = value; }
         }
 
         protected string CurrentUsername
@@ -21,7 +22,8 @@ namespace ExtramuralEducation.WebSite.Controllers
 
         protected long? CurrentInstitutionId 
         {
-            get { return (long?) this.Session[SessionKeys.InstituteId]; }
+            get { return (long?) this.HttpContext.Cache[CacheKeys.InstituteId]; }
+            set { this.HttpContext.Cache[CacheKeys.InstituteId] = value; }
         }
 
 

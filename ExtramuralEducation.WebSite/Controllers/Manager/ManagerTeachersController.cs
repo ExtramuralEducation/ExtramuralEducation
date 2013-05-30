@@ -12,6 +12,11 @@ namespace ExtramuralEducation.WebSite.Controllers.Manager
     {
         public virtual ActionResult Index()
         {
+            if (this.CurrentInstitutionId.HasValue)
+            {
+
+            }
+
             return View();
         }
 
